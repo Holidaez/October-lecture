@@ -1,7 +1,8 @@
 const moves = [{name:'tackle',id:1,damage:40}, {name:'water gun',id:2,damage:50}, {name:'protect',id:3,damage:0}, {name:'iron defense',id:4,damage:0}, {name:'hydro pump',id:5,damage:100}, {name:'scald',id:6,damage:60}]
 
 
-function PokeMoves () {
+function PokeMoves (props) {
+    console.log("these are the props in pokemoves", props)
     return (
         <div>
             <ul>
